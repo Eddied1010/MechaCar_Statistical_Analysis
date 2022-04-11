@@ -43,3 +43,21 @@ In addition, the p-value of our linear regression analysis is
  All-Wheel Drive(AWD) - 0.1852 - Strong signifance.
 
  Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero for Vehicle Length and Ground Clearance. However, for variables vehicle weight and AWD there is a higher correlation between these values that can explain/predict the value of mpg.
+
+
+## Summary Statistics on Suspension Coils,
+Total_Summary
+
+   Mean         Median      Variance       SD
+1   1498.78     1500        62.29356    7.892627
+
+This summary contains a summary of the Overall Suspension Coils Pressure (PSI) accross all Manufacturing. Starting with the Means PSI for Coils. The Median PSI for suspension Coils.  The variance in the suspension coils measured in PSI. The Standard Deviation in the suppension coils.
+
+Lot_Summary
+ Manufacturing_Lot      Mean        Median      Variance     SD
+
+1 Lot1                  1500        1500        0.980       0.990
+2 Lot2                  1500.       1500        7.47        2.73 
+3 Lot3                  1496.       1498.       170.        13.0  
+
+This summary consist of the Suspension Coil Pressure for each Manufacturing lot measured in PSI.  Showing the each lot Mean, Median, Variance and Standard Deviation or each lot.
